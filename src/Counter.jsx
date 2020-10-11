@@ -5,7 +5,7 @@ import { increment, decrement } from "./store/actions";
 function Counter() {
   return (
     <div className="main">
-      <h1>GitHub users (With Redux technologie)</h1>
+      <h1>Counter (Using Redux)</h1>
       <button type="button" onClick={() => store.dispatch(increment())}>
         Plus
       </button>
